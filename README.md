@@ -60,25 +60,23 @@ The following tools were used in this project:
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [SQLite](https://www.sqlite.org/index.html)
+- [TypeORM](https://typeorm.io/#/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Node](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/) installed.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/api
-
-# Access
-$ cd api
+$ git clone https://github.com/MatheusChein/npsScore
 
 # Install dependencies
 $ yarn
 
 # Run the project
-$ yarn start
+$ yarn dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
